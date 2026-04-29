@@ -28,6 +28,15 @@ MODELS = {
         "speed": "Slow"
     },
 
+    "GPT OSS 20B (Balanced Intelligence)": {
+        "id": "openai/gpt-oss-20b",
+        "desc": "⚖️ Mid-size OSS model balancing speed and reasoning quality.",
+        "pros": "Faster than 120B, still strong reasoning ability",
+        "cons": "Less powerful on complex multi-step tasks",
+        "context": "131k tokens",
+        "speed": "Fast"
+    },
+
     "Qwen 32B (Smart & Fast)": {
         "id": "qwen/qwen3-32b",
         "desc": "💡 Strong reasoning with good speed.",
@@ -44,6 +53,15 @@ MODELS = {
         "cons": "Not good for complex reasoning",
         "context": "131k tokens",
         "speed": "Ultra Fast"
+    },
+
+    "Groq Compound (Hybrid Routing)": {
+        "id": "groq/compound",
+        "desc": "🧩 Smart routed model that dynamically balances speed and quality.",
+        "pros": "Automatically optimizes responses, good general performance",
+        "cons": "Less predictable behavior than single models",
+        "context": "Varies",
+        "speed": "Dynamic"
     }
 }
 
