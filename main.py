@@ -37,15 +37,6 @@ MODELS = {
         "speed": "Fast"
     },
 
-    "LLaMA 3 8B (Fast)": {
-        "id": "llama3-8b-8192",
-        "desc": "⚡ Very fast lightweight model.",
-        "pros": "Super fast responses",
-        "cons": "Weaker reasoning",
-        "context": "8k tokens",
-        "speed": "Very Fast"
-    },
-
     "LLaMA 3.1 8B (Ultra Fast)": {
         "id": "llama-3.1-8b-instant",
         "desc": "🚀 Fastest model for quick replies.",
