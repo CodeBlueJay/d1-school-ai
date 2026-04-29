@@ -28,15 +28,6 @@ MODELS = {
         "speed": "Slow"
     },
 
-    "LLaMA 3 70B (Balanced)": {
-        "id": "llama3-70b-8192",
-        "desc": "⚖️ Balanced model for everyday chatbot use.",
-        "pros": "Good balance of speed and intelligence",
-        "cons": "Less advanced than 3.3 version",
-        "context": "8k tokens",
-        "speed": "Fast"
-    },
-
     "Qwen 32B (Smart & Fast)": {
         "id": "qwen/qwen3-32b",
         "desc": "💡 Strong reasoning with good speed.",
